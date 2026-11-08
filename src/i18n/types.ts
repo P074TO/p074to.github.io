@@ -44,6 +44,7 @@ export interface UIStrings {
 
     postsTitle: string;
     postsDesc: string;
+    postsEmpty: string;
 
     archivesTitle: string;
     archivesDesc: string;
@@ -56,6 +57,7 @@ export interface UIStrings {
     openMenu: string;
     closeMenu: string;
     toggleTheme: string;
+    solarizedDark: string;
     searchPlaceholder: string;
     noResults: string;
     goToPreviousPage: string;

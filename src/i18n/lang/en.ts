@@ -46,6 +46,7 @@ export default {
 
     postsTitle: "Posts",
     postsDesc: "All the articles I've posted.",
+    postsEmpty: "No posts yet.",
 
     archivesTitle: "Archives",
     archivesDesc: "All the articles I've archived.",
@@ -57,7 +58,8 @@ export default {
     skipToContent: "Skip to content",
     openMenu: "Open menu",
     closeMenu: "Close menu",
-    toggleTheme: "Toggle theme",
+    toggleTheme: "Toggle Solarized theme",
+    solarizedDark: "Solarized dark mode",
     searchPlaceholder: "Search posts...",
     noResults: "No results found",
     goToPreviousPage: "Go to previous page",
