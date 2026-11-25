@@ -2,7 +2,7 @@
 title: "Splitting my Python app without breaking existing imports"
 description: "How I split an equipment inventory app into smaller modules while keeping its storage imports and launch command working."
 pubDatetime: 2026-11-25T11:44:00+08:00
-draft: true
+draft: false
 tags:
   - technical
   - projects
