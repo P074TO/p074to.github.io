@@ -82,6 +82,16 @@ initial launcher includes separate Windows, macOS, and Linux path rules.
 That code alone does not establish that the app has been tested natively
 on all three systems.
 
+## The first inventory window
+
+This capture shows the November 22 version at `e80c0fd`, running with a
+sample multimeter record. I captured it on **November 25, 2026 at 22:32
+Philippine time**, using the original source and Qt offscreen on macOS.
+The screenshot shows the application widgets without the operating
+system's window frame.
+
+![The first inventory table showing a saved sample multimeter with one unit, Good condition, and Cabinet A as its location.](/images/enginventory/2026-11-25-e80c0fd/01-saved-inventory-table.png)
+
 ## What this milestone established
 
 The November 22 commits cover the schema (`c987e37`), initialization

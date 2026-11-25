@@ -96,6 +96,23 @@ That avoids decoding and shrinking the full photograph for every table
 refresh. A larger saved-photo detail view follows in the November 24
 work.
 
+## The form and saved thumbnail
+
+These captures show the November 23 version at `a1dd5ff`. I captured the
+running application on **November 25, 2026 at 22:32 Philippine time**,
+using Qt offscreen on macOS and disposable sample records. The selected
+file is a generated image labeled SAMPLE IMAGE, used to demonstrate the
+preview and thumbnail. It is not an equipment photograph.
+
+The completed Add Item form previews the selected file before saving.
+
+![Add Item form filled with sample multimeter specifications, showing the SAMPLE IMAGE preview and Save and Cancel buttons.](/images/enginventory/2026-11-25-a1dd5ff/01-add-item-photo-preview.png)
+
+After Save, the inventory table shows the copied image as a thumbnail
+beside the new item.
+
+![Saved sample multimeter in the inventory table with its generated sample-image thumbnail.](/images/enginventory/2026-11-25-a1dd5ff/02-saved-photo-thumbnail.png)
+
 ## What I could verify
 
 The Add Item form is in `19fd3bd`. Photo selection and preview are in

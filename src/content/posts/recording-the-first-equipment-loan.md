@@ -89,6 +89,25 @@ properly.
 The Return storage function also arrives before a Return control in the
 interface. Recording a return through the desktop window is later work.
 
+## The first Borrow form and stock warning
+
+These captures show the November 24 version at `c90bfdd`, running from its
+original source with disposable sample records. I captured them on
+**November 25, 2026 at 22:32 Philippine time**, using Qt offscreen on
+macOS. They show the application's dialogs without operating-system
+window frames.
+
+The form retains the leading zeroes in the sample borrower ID and records
+a Student role, purpose, and due date.
+
+![Initial Borrow form with sample borrower ID 00123, Sample Borrower, Student role, Lab exercise purpose, and a November 30 due date.](/images/enginventory/2026-11-25-c90bfdd/01-borrow-form.png)
+
+After saving the first loan for the only unit, another Save attempt
+produces the out-of-stock warning. The capture run also checked that the
+database still contained only the first loan.
+
+![Warning dialog stating that no units are available for this item.](/images/enginventory/2026-11-25-c90bfdd/02-out-of-stock-warning.png)
+
 ## Verify the boundary cases
 
 The feature history records the larger photo preview in `3f2a654`, loan

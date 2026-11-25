@@ -25,3 +25,21 @@ This is a summary of the observed run, not a contemporaneous November 22–24
 log. The historical source was checked on November 25. Native Windows
 execution, crash recovery, concurrent borrowing, permission enforcement,
 and condition-aware stock rules were not established by this run.
+
+Screenshot evidence added November 25, 2026:
+- Source e80c0fd, captured 2026-11-25T22:32:36+08:00:
+  01-saved-inventory-table.png
+- Source a1dd5ff, captured 2026-11-25T22:32:36+08:00:
+  01-add-item-photo-preview.png
+  02-saved-photo-thumbnail.png
+- Source c90bfdd, captured 2026-11-25T22:32:36+08:00:
+  01-borrow-form.png
+  02-out-of-stock-warning.png
+
+These are fresh captures of running historical source using Qt offscreen
+on macOS. They show application widgets without OS window frames.
+The capture harness drove dialog controls and file selection. Disposable
+sample records and a generated SAMPLE IMAGE fixture were used. The image
+is a screenshot fixture, not an actual equipment photograph.
+The borrowing capture verified that a second Save attempt left only the
+first loan in SQLite. Original historical source files were not edited.
