@@ -1,0 +1,27 @@
+EngInventory early milestones: retrospective verification
+Verification date: November 25, 2026 (Asia/Manila)
+Platform: macOS, Qt offscreen
+Source snapshot: f7c033b (f7c033b is a test-only change after c90bfdd)
+Assigned Git timestamp for test snapshot: November 26, 2026, 15:00 +0800
+Feature commit dates covered: November 22–24, 2026, +0800
+Method: extracted Git snapshot in a temporary directory; used the existing
+project Python environment; sample records and disposable databases only.
+Command: python -m unittest discover -s tests -v
+
+Result: seven tests passed.
+
+Passing storage tests:
+- test_existing_database_gains_photo_column
+- test_failed_photo_copy_rolls_back_item_and_cleans_up_partial_file
+- test_inventory_survives_initialization_and_rejects_duplicate
+- test_last_unit_can_be_borrowed_again_after_return
+- test_save_copies_photo_and_records_its_filename
+
+Passing UI tests:
+- test_add_refreshes_table_and_saved_photos_open_in_details
+- test_borrow_cancel_save_and_out_of_stock
+
+This is a summary of the observed run, not a contemporaneous November 22–24
+log. The historical source was checked on November 25. Native Windows
+execution, crash recovery, concurrent borrowing, permission enforcement,
+and condition-aware stock rules were not established by this run.
