@@ -1,0 +1,12 @@
+Verified 2026-11-25 16:15 +0800
+Commit aabcd6f (2026-11-29T15:45:00+08:00) feat(dsa): add a stack for return undo
+test_empty_stack_reports_underflow (test_stack.StackTests.test_empty_stack_reports_underflow) ... ok
+test_none_and_duplicate_values_are_preserved (test_stack.StackTests.test_none_and_duplicate_values_are_preserved) ... ok
+test_peek_preserves_the_entry_until_pop (test_stack.StackTests.test_peek_preserves_the_entry_until_pop) ... ok
+test_pop_returns_newest_loan_id_first (test_stack.StackTests.test_pop_returns_newest_loan_id_first) ... ok
+test_stack_can_be_reused_after_draining (test_stack.StackTests.test_stack_can_be_reused_after_draining) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK

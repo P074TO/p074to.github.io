@@ -1,0 +1,13 @@
+Verified 2026-11-25 16:57 +0800
+Commit 53412b6 (2026-11-29T16:00:00+08:00) feat(loans): reverse equipment returns atomically
+test_borrowed_stock_blocks_undo_until_a_unit_becomes_free (test_undo_storage.UndoStorageTests.test_borrowed_stock_blocks_undo_until_a_unit_becomes_free) ... ok
+test_failed_reopen_rolls_back_the_waitlist_change (test_undo_storage.UndoStorageTests.test_failed_reopen_rolls_back_the_waitlist_change) ... ok
+test_picked_up_reservation_blocks_undo_even_after_pickup_loan_ends (test_undo_storage.UndoStorageTests.test_picked_up_reservation_blocks_undo_even_after_pickup_loan_ends) ... ok
+test_uncollected_hold_returns_to_the_original_queue_position (test_undo_storage.UndoStorageTests.test_uncollected_hold_returns_to_the_original_queue_position) ... ok
+test_undo_damaged_or_lost_returns_restores_good_stock_on_loan (test_undo_storage.UndoStorageTests.test_undo_damaged_or_lost_returns_restores_good_stock_on_loan) ... ok
+test_undo_good_return_reopens_the_original_loan (test_undo_storage.UndoStorageTests.test_undo_good_return_reopens_the_original_loan) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.060s
+
+OK

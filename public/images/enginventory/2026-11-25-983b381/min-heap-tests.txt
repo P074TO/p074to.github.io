@@ -1,0 +1,13 @@
+Verified 2026-11-25 16:07 +0800
+Commit 983b381 (2026-11-29T15:15:00+08:00) feat(dsa): add a min-heap for overdue loans
+test_due_dates_tie_break_by_loan_id (test_min_heap.MinHeapTests.test_due_dates_tie_break_by_loan_id) ... ok
+test_empty_heap_reports_underflow_and_can_be_reused (test_min_heap.MinHeapTests.test_empty_heap_reports_underflow_and_can_be_reused) ... ok
+test_equal_keys_do_not_compare_values (test_min_heap.MinHeapTests.test_equal_keys_do_not_compare_values) ... ok
+test_heapify_accepts_iterators_and_empty_input (test_min_heap.MinHeapTests.test_heapify_accepts_iterators_and_empty_input) ... ok
+test_heapify_replaces_entries_and_copies_the_input (test_min_heap.MinHeapTests.test_heapify_replaces_entries_and_copies_the_input) ... ok
+test_insert_and_extract_can_be_interleaved (test_min_heap.MinHeapTests.test_insert_and_extract_can_be_interleaved) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.001s
+
+OK
