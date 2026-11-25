@@ -3,6 +3,8 @@ title: "About"
 description: "About Jr Rob Saluday and this site."
 ---
 
+![Me and my gf! :D](images/about/lean-and-i.png)
+
 I’m Jr Rob Saluday. I work on web and mobile software.
 One of my projects is Farmersell, a marketplace for agricultural goods.
 I’m currently working on a multi-platform mobile app.
