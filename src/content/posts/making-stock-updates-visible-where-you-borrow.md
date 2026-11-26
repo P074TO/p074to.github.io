@@ -2,7 +2,7 @@
 title: "Making stock updates visible where you borrow"
 description: "Following one equipment item through borrowing and return, with stock updates visible in the same selected row."
 pubDatetime: 2026-11-26T12:03:00+08:00
-draft: true
+draft: false
 tags:
   - technical
   - projects
@@ -17,6 +17,8 @@ place.
 On November 25, I moved the details into a side panel beside the inventory
 table, connected a successful Borrow save to an availability refresh,
 and completed the Return action in the same panel.
+
+Codex assisted with implementation, automated checks, and evidence capture.
 
 ## Keep the selected item in view
 
